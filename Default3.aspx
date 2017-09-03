@@ -1,0 +1,205 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default3.aspx.cs" Inherits="Default3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>首页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/style2.css" rel="stylesheet" type="text/css"  />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts start-->
+<link href='http://fonts.useso.com/css?family=Ruluko' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Work+Sans:400,600,500,700,800,900,200,300' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/jquery.js"></script>
+	<!-- start-smoth-scrolling -->
+<link rel="stylesheet" type="text/css" href="flexslider.css" />
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>  
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".flexslider").flexslider();
+    });
+</script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div class="top-navg ">
+	<div class="container">
+		<div class=" logo wow tada">
+			<a href="Default3.aspx"><img src="images/logo.png" alt=""></a>
+		</div>
+		<div class="navigation">	
+			<span class="menu-ic"><img src="images/menu2.png" alt=""></span>
+			<div class="menu menu-li">
+				<ul class="menu-list">
+					<li class="menu-item menu-item-current"><a href="Default3.html" class="menu-link">首页</a></li>
+					<li class="menu-item"><a href="Default.aspx" class="menu-link">私房小菜</a></li>
+					<li class="menu-item"><a href="drink.html" class="menu-link">果汁饮品</a></li>
+					<li class="menu-item"><a href="dessert.html" class="menu-link">蛋糕甜点</a></li>
+					<li class="menu-item"><a href="soup.html" class="menu-link">老火靓汤</a></li>
+					<li class="menu-item"><a href="news.html" class="menu-link">美食资讯</a></li>
+				</ul>
+			</div>
+
+			 <script>
+			     $("span.menu-ic").click(function () {
+			         $(".navigation ul").slideToggle(300, function () {
+			             // Animation complete.
+			         });
+			     });
+				</script>
+	</div>
+	<ul class=" head-icons">
+				 		<li><a href="#"><span class="fa"> </span></a></li>
+				 		<li><a href="#"><span class="tw"> </span></a></li>
+				 	</ul>
+	<div class="clearfix"></div>
+</div>
+</div>
+
+<div class="furniture">
+		<div class="container">
+          <div class="furniture-main">
+            
+			<div class="col-md-8 furniture-grid2">
+              <div class="flexslider">  
+                 <ul class="slides">  
+                      <li><img src="images/1.jpg" /></li>  
+                      <li><img src="images/2.jpg" /></li>  
+                      <li><img src="images/3.jpg" /></li>  
+                      <li><img src="images/4.jpg" /></li>  
+                 </ul>  
+               </div>
+            </div>
+            
+            <div class="col-md-4 furniture-grid2 no-marg">
+                
+					<div class="furni-small-grid">
+					   <div class="furnitu-left">
+					 <a href="single.html"><img src="images/s1.jpg" alt="" class="img-responsive"></a>
+					   </div>
+					   <div class="furnitu-right">
+					  	  <h5><a href="single.html">如何锁住营养</a></h5>
+					  	  <p>食材巧焯水，营养不逃跑！焯水更是成品菜肴色香味俱全必不可少的步骤。</p>
+					   </div>
+                       <div class="clearfix"></div>
+					</div>
+                    
+					<div class="furni-small-grid">
+					   <div class="furnitu-left">
+					  <a href="single.html"><img src="images/s2.jpg" alt="" class="img-responsive"></a>
+					   </div>
+					   <div class="furnitu-right">
+					  	  <h5><a href="single.html">不可不知的淀粉攻略</a></h5>
+					  	  <p>选对合适淀粉，让菜肴更鲜香，色泽更佳</p>
+					   </div>
+                       <div class="clearfix"></div>
+					</div>
+                    
+					<div class="furni-small-grid">
+					   <div class="furnitu-left">
+					  <a href="single.html"><img src="images/s3.jpg" alt="" class="img-responsive"></a>
+					   </div>
+					   <div class="furnitu-right">
+				      <h5><a href="http://www.meishichina.com/mofang/kusesuanshiwu/">口感差≠没营养</a></h5>
+					  	  <p>口感差的食物当中，存在着令人意想不到的营养和健康元素！</p>
+					   </div>
+                       <div class="clearfix"></div>
+					</div>
+                    
+					<div class="furni-small-grid">
+					   <div class="furnitu-left">
+				 	 <a href="single.html"> <img src="images/s4.jpg" alt="" class="img-responsive"></a>
+					   </div>
+					   <div class="furnitu-right">
+					  	  <h5><a href="single.html">自制酱料</a></h5>
+					  	  <p>酱料说不上是美食的主角，但也不可否认它总会在最适合它的地方大放光彩。</p>
+					   </div>
+			          <div class="clearfix"></div>
+                     </div>
+                  </div>
+        </div>
+	</div>
+</div>
+
+           
+<div class="container">
+          <div class="furniture-main">             
+          <div class="col-md-4 furniture-grid">
+           <h3><a href="###">DIY美食，让你爱上吃饭</a></h3>
+           <p>充满诱惑的美食摆盘，不仅让人们兴奋不已，也给大家一个享受创作的快乐时光！</p>
+           <h3><a href="###">彩色素食营养美味</a></h3>
+           <p>吃素食已成为这些年不少人日常饮食习惯，其实素食也可以很美味哦~</p>
+        </div>
+        
+        <div class="col-md-4 furniture-grid">
+           <h3><a href="###">自制食材</a></h3>
+           <p>外面买来的半成品食材，难免会存在各样安全隐患，不如自己动手做，健康又安全。</p>
+           <h3><a href="###">主食也不单调</a></h3>
+           <p>很多人都喜欢面食，小小的一块面可以千变万化成为各种主食点心！</p>
+        </div>
+        
+        <div class="col-md-4 furniture-grid">
+           <h3><a href="###">要美味，也要颜值</a></h3>
+           <p>创意的想法，精美的摆盘，美味的同时又有颜值，美得不忍心下口啊～</p>
+           <h3><a href="###">花样点心</a></h3>
+           <p>如花般的食物一点也不会输给平凡生活里的大事件，在庸碌的时光中，简直让生活发光！</p>
+        </div>
+      </div>
+	</div>
+		<div class="container">
+          <div class="furniture-main">       
+        <div class="col-md-4 furniture-grid">
+					<figure class="effect-bubba">
+						<img src="images/r1.jpg" alt="" class="img_responsive">
+                        <figcaption>
+                        <h4>豆腐</h4>
+					    <p>豆腐营养丰富，含有铁、钙、磷、镁等人体必需的多种微量元素，以及糖类、植物油等丰富的优质蛋白，素有“植物肉”之称</p>
+                        </figcaption>
+                        </figure>	
+                        <h4><a href="single.html">技能爆表豆腐食单 </a></h4>
+                        <p>对于软嫩易碎的豆腐，在烹饪过程中如何能既保证味道鲜美又不破坏其完整性呢？</p>
+				</div>
+                
+				<div class="col-md-4 furniture-grid">
+					<figure class="effect-bubba">
+						<img src="images/r2.jpg" alt="" class="img_responsive">
+                        <figcaption>
+                        <h4>鸡肉</h4>
+					<p>鸡肉含有维生素C、E等，蛋白质的含量比例较高，种类多，而且消化率高，很容易被人体吸收利用鸡肉，有增强体力、强壮身体的作用。</p>
+                    </figcaption> 
+					</figure>
+                    <h4><a href="single.html">原来你是这样的一只鸡</a></h4>
+                    <p>平凡小鸡，却有万千滋味！每一种鸡肉料理都能让你回味无穷！你最喜欢的是哪一种？</p>
+				</div>
+                
+                <div class="col-md-4 furniture-grid">
+					<figure class="effect-bubba">
+						<img src="images/r3.jpg" alt="" class="img_responsive">
+                        <figcaption>
+                        <h4>猪肉</h4>
+					<p>猪肉又名豚肉，含有丰富的蛋白质及脂肪、碳水化合物、钙、铁、磷等成分，具有补虚强身，滋阴润燥、丰肌泽肤的作用。</p>
+                    </figcaption>
+					</figure>
+					<h4><a href="single.html">吃货眼中的猪 </a></h4>
+                    <p>所谓“浑身都是宝”说的就是猪，每个部位都有不同的吃法，味道和口感也各不相同。</p><br/>
+				</div>
+        </div>
+	</div>
+    <div class="copy-right wow shake">
+    	 <p>哇哈哈哈<a target="_blank" href="###">吃货专属</a></p>
+    </div>
+</div>
+    
+    </div>
+    </form>
+</body>
+</html>
